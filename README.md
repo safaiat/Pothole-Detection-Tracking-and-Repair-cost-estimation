@@ -39,6 +39,8 @@ python save_model.py --weights ./data/yolov4.weights --output ./checkpoints/yolo
 
 ## yolov4-tiny
 python save_model.py --weights ./data/yolov4-tiny.weights --output ./checkpoints/yolov4-tiny-416 --input_size 416 --model yolov4 --tiny
+
+
 If you want to run yolov3 or yolov3-tiny change --model yolov3 in command and also download corresponding YOLOv3 weights and and change --weights to ./data/yolov3.weights
 
 Run Tracking
@@ -53,12 +55,12 @@ python track_objects.py --weights ./checkpoints/yolov4-tiny-416 --score 0.3 --vi
 
 # Run Tracking on Webcam With Tiny Yolov4
 python track_objects.py --weights ./checkpoints/yolov4-tiny-416 --score 0.3 --video 0 --output ./results/webcam_tiny.avi --model yolov4
+
+
 Changing The Tracking Classes
 You can change which classes should tracked by modifying data/classes/tracking.names file. By default, it only tracks person and dog classes.
 
 Credits
 hunglc007 Yolov4 TensorFlow Repo
-
 nwojke DeepSort Repo
-
 TheAIGuy DeepSort Repo
