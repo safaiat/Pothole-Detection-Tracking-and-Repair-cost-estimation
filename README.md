@@ -1,34 +1,3 @@
-# yolov4-deepsort
-[![license](https://img.shields.io/github/license/mashape/apistatus.svg)](LICENSE)
-
-This repository is created for the Youtube channel [TheCodingBug](https://www.youtube.com/channel/UCcNgapXcZkyW10FIOohZ1uA?sub_confirmation=1).
-
-This repository shows how to use YOLOv4 and YOLOv4-Tiny to track objects using ``Deep Sort``. This is tested with ``TensorFlow 2.3.1`` on ``GTX-1060``.
-
-
-# Object Tracking Results Yolov4 original weights
-
-### Tracking ``person``
-<p align="center"><img src="person.gif" width="640"\></p>
-
-### Tracking ``dog``
-<p align="center"><img src="dog.gif" width="640"\></p>
-
-### Tracking ``dog`` and ``person``
-<p align="center"><img src="dog_person.gif" width="640"\></p>
-
-# Table of Contents
-
-1. [Setting Up Environment](#setting-up-environment)
-   * [Using Conda](#using-conda)
-   * [Using Pip](#using-pip)
-2. [Download Weights File](#download-eights-file)
-3. [Convert YOLOv4 to TensorFlow](#convert-yolov4-to-tensorflow)
-4. [Run Tracking](#run-tracking)
-5. [Credits](#credits)
-
-
-
 # Setting Up Environment
 ### Using Conda
 #### CPU
@@ -108,3 +77,4 @@ You can change which classes should tracked by modifying ``data/classes/tracking
   * [hunglc007 Yolov4 TensorFlow Repo](https://github.com/hunglc007/tensorflow-yolov4-tflite)
   * [nwojke DeepSort Repo](https://github.com/nwojke/deep_sort)
   * [TheAIGuy DeepSort Repo](https://github.com/theAIGuysCode/yolov4-deepsort)
+  * [haroonshakeel Repo](https://github.com/haroonshakeel/yolov4_deepSort)
