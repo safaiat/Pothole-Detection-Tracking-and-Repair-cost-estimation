@@ -28,6 +28,7 @@ pip install -r requirements-gpu.txt
 Note: If installing GPU version with Pip, you need to install CUDA and cuDNN in your system. You can find the tutorial for Windows here.
 
 Download Weights File
+
 Download yolov4.weights file 245 MB: yolov4.weights (Google-drive mirror yolov4.weights )
 
 If using tiny version, download yolov4-tiny.weights file instead. tiny version is faster, but less accurate.
@@ -56,11 +57,16 @@ python track_objects.py --weights ./checkpoints/yolov4-tiny-416 --score 0.3 --vi
 # Run Tracking on Webcam With Tiny Yolov4
 python track_objects.py --weights ./checkpoints/yolov4-tiny-416 --score 0.3 --video 0 --output ./results/webcam_tiny.avi --model yolov4
 
-
 Changing The Tracking Classes
-You can change which classes should tracked by modifying data/classes/tracking.names file. By default, it only tracks person and dog classes.
+You can change which classes should tracked by modifying
+
+data/classes/tracking.names file. By default, it only tracks person and dog classes.
 
 Credits
 hunglc007 Yolov4 TensorFlow Repo
+
 nwojke DeepSort Repo
+
 TheAIGuy DeepSort Repo
+
+haroonshakeel yolov4_deepSort Repo
