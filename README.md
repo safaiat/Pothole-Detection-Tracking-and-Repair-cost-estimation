@@ -58,5 +58,7 @@ You can change which classes should tracked by modifying data/classes/tracking.n
 
 Credits
 hunglc007 Yolov4 TensorFlow Repo
+
 nwojke DeepSort Repo
+
 TheAIGuy DeepSort Repo
